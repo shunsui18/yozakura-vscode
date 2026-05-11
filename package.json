@@ -1,0 +1,47 @@
+{
+	"name": "yozakura-vscode",
+	"displayName": "yozakura-vscode",
+	"description": "Yoru (Night) & Hiru (Day) color themes for VS Code",
+	"version": "1.0.0",
+	"publisher": "shunsui18",
+	"license": "MIT",
+	"icon": "icon.png",
+	"galleryBanner": {
+	  "color": "#18203a",
+	  "theme": "dark"
+	},
+	"readme": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shunsui18/yozakura-vscode"
+	},
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"yozakura",
+		"dark",
+		"light",
+		"purple",
+		"night",
+		"sakura"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "yozakura-yoru",
+				"uiTheme": "vs-dark",
+				"path": "./themes/yozakura-yoru-color-theme.json"
+			},
+			{
+				"label": "yozakura-hiru",
+				"uiTheme": "vs",
+				"path": "./themes/yozakura-hiru-color-theme.json"
+			}
+		]
+	}
+}
