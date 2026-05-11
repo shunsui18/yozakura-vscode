@@ -8,7 +8,7 @@ A handcrafted dual-variant color theme for [Visual Studio Code](https://code.vis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-pink?style=flat-square)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.70+-lavender?style=flat-square)](https://code.visualstudio.com/)
-[![Marketplace](https://img.shields.io/badge/marketplace-shunsui18.yozakura-89b4fa?style=flat-square&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=shunsui18.yozakura)
+[![Marketplace](https://img.shields.io/badge/marketplace-shunsui18.yozakura-89b4fa?style=flat-square&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/publishers/shunsui18)
 [![Palette](https://img.shields.io/badge/palette-yozakura-ffb7c5?style=flat-square)](https://github.com/shunsui18/yozakura)
 
 </div>
@@ -41,18 +41,26 @@ A handcrafted dual-variant color theme for [Visual Studio Code](https://code.vis
 
 ## ✦ Installation
 
-### From Marketplace
+### Marketplace
 
-Search **Yozakura** in the VS Code Extensions panel, or install via the command line:
+Visit the [Extention page](https://marketplace.visualstudio.com/items?itemName=shunsui18.yozakura-vsode-colorscheme) on the VS Code Marketplace and click **Install**.
+
+### Extensions Panel
+
+Search **Yozakura** in the Extensions panel (`Ctrl+Shift+X`) and click **Install**.
+
+### Command Line
 
 ```bash
 code --install-extension shunsui18.yozakura
 ```
 
-### From VSIX (local)
+### Quick Open
 
-```bash
-code --install-extension yozakura-1.0.0.vsix
+Press `Ctrl+P`, paste the following, and press `Enter`:
+
+```
+ext install shunsui18.yozakura
 ```
 
 ---
